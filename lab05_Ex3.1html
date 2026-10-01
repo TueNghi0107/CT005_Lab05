@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infographic và video</title>
+</head>
+<body>
+	<header>
+		<h1>Infographic và video</h1>
+	</header>
+
+	<main>
+		<section aria-labelledby="infographic-heading">
+			<h2 id="infographic-heading">Infographic</h2>
+			<a href="https://youtu.be/TABTwo_O1V4" target="_blank" rel="noopener noreferrer">
+				<img src="https://img.youtube.com/vi/TABTwo_O1V4/hqdefault.jpg"
+						 alt="Hình xem trước video infographic trên YouTube">
+			</a>
+		</section>
+
+		<section aria-labelledby="video-heading">
+			<h2 id="video-heading">Video</h2>
+			<p>Video giới thiệu nội dung infographic. Chọn hình xem trước hoặc phát video bên dưới để xem trên YouTube.</p>
+			<iframe src="https://www.youtube.com/embed/TABTwo_O1V4"
+							title="Video infographic trên YouTube"
+							width="560" height="315"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerpolicy="strict-origin-when-cross-origin"
+							allowfullscreen></iframe>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; Nội dung video và hình ảnh thuộc quyền sở hữu của chủ sở hữu tương ứng.</p>
+	</footer>
+</body>
+</html>
